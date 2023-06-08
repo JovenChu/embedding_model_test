@@ -69,7 +69,7 @@
        一个人走下楼梯。	一个男人走下楼梯。	5
        ```
        
-2. 模型测试：选取【text2vec-base、text2vec-large、ernie-base】三个模型，输入每个样本每句话，输出句向量，然后对每条样本的两个句向量计算余弦相似度（cosine similarity），值域为[-1, 1]。最后画成效果图，**x轴是Label，y轴是model的cosine similarity**，并让点可以散开，如果Label是0就把x平均分布到0~1之间，是1就把x平均分布到1~2之间，以此类推；
+2. 模型测试：选取【text2vec-base、text2vec-large、ernie-base】三个模型，输入每个样本每句话，输出句向量，然后对每条样本的两个句向量计算余弦相似度（cosine similarity），值域为[-1, 1]。最后画成效果图，**x轴是Label，y轴是model的cosine similarity**，并让点可以散开，如果Label是0就把x平均分布到0-1之间，是1就把x平均分布到1-2之间，以此类推；
    - 运行代码：
         ```shell
         # 先将模型下载到models文件夹中，并修改test.py中的模型路径
