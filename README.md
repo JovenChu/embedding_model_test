@@ -79,8 +79,8 @@
 3. 对比结论：
    - 开源模型：建议使用text2vec-base模型，另外魔搭社区里也有一些专用领域的开源模型可以选用
        
-       ![Ernie](img/result_all.png)
+       ![result_all](img/result_all.png)
        
    - openai-embedding——付费接口（参考知乎博主HappyGo结果）
        
-       ![Ernie](img/openai.jpeg)
+       ![openai](img/openai.jpeg)
