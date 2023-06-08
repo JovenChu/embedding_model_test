@@ -1,0 +1,2 @@
+# embedding_model_test
+基于开源embedding模型的中文向量效果测试
