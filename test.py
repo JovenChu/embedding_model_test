@@ -46,7 +46,7 @@ def random_samples(sample_nums):
     """
     label_dict = {0: [], 1: [], 2: [], 3: [], 4: [], 5: []}
 
-    with open('data/Chinese-STS-B/sts-b-train.txt', 'r') as f:
+    with open('data/Chinese-STS-B/sts-b-test.txt', 'r') as f:
         for line in f:
             line = line.strip()
             if not line:
@@ -135,7 +135,7 @@ def model_test(embedding_model, sample_nums):
 
 if __name__ == '__main__':
     # 抽样数量
-    sample_nums = 100
+    sample_nums = 90
     random_samples(sample_nums)
     # 全部模型运行测试
     for embedding_model in embedding_model_dict:
